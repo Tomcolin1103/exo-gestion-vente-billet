@@ -1,0 +1,34 @@
+{
+	"events": [
+		{
+			"id": "1",
+			"name": "Ardentes",
+			"date": "11/7/2024 - 14/7/2024",
+			"location": "Liège"
+		},
+		{
+			"id": "2",
+			"name": "AEF Championship 6",
+			"date": "17/5/2024",
+			"location": "Roazhon Park - Rennes"
+		},
+		{
+			"id": "3",
+			"name": "Tommorowland",
+			"date": "19/7/2024 - 28/7/2024",
+			"location": "Domaine provincial De Schorre, Boom"
+		},
+		{
+			"id": "4",
+			"name": "Dour",
+			"date": "17/7/2024 - 21/7/2024",
+			"location": "Dour"
+		},
+		{
+			"id": "5",
+			"name": "Rock Werchter",
+			"date": "4/7/2024 - 7/7/2024",
+			"location": "Festivalpark Werchter, Rotselaar"
+		}
+	]
+}
