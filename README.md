@@ -1,7 +1,7 @@
-
 # exo-gestion-vente-billet
-### Gestion de vente de billets de concert : 
- 
+
+### Gestion de vente de billets de concert :
+
 <p>
 Librairie à utiliser : <br>
 <ul>
