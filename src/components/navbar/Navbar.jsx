@@ -1,20 +1,31 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 export default function Navbar() {
 	return (
 		<>
-			<div id="navbar">
+			<div id="navbar" className="bg-cyan-950 h-16">
 				<nav>
-					<ul>
-						<li>
-							<Link to={"/"}>Home</Link>
+					<ul className="flex justify-around h-16">
+						<li className="w-1/5">
+							<Link
+								to={"/"}
+								className="flex text-white hover:bg-cyan-900 h-full justify-center items-center"
+							>
+								Home
+							</Link>
 						</li>
-						<li>
-							<Link to={"/events"}>Events</Link>
+						<li className="w-1/5">
+							<Link
+								to={"/events"}
+								className="flex text-white hover:bg-cyan-900 h-full justify-center items-center"
+							>
+								Events
+							</Link>
 						</li>
 					</ul>
 				</nav>
 			</div>
+			<Outlet />
 		</>
 	);
 }

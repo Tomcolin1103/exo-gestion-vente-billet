@@ -1,34 +1,39 @@
 {
-	"events": [
-		{
-			"id": "1",
-			"name": "Ardentes",
-			"date": "11/7/2024 - 14/7/2024",
-			"location": "Liège"
-		},
-		{
-			"id": "2",
-			"name": "AEF Championship 6",
-			"date": "17/5/2024",
-			"location": "Roazhon Park - Rennes"
-		},
-		{
-			"id": "3",
-			"name": "Tommorowland",
-			"date": "19/7/2024 - 28/7/2024",
-			"location": "Domaine provincial De Schorre, Boom"
-		},
-		{
-			"id": "4",
-			"name": "Dour",
-			"date": "17/7/2024 - 21/7/2024",
-			"location": "Dour"
-		},
-		{
-			"id": "5",
-			"name": "Rock Werchter",
-			"date": "4/7/2024 - 7/7/2024",
-			"location": "Festivalpark Werchter, Rotselaar"
-		}
-	]
+  "events": [
+    {
+      "id": "06e3ecf2-b5ee-41e5-9a80-3205181ab6ba",
+      "name": "Ardentes",
+      "date": "2024-06-29",
+      "location": "Liège",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie, sapien ac feugiat vehicula, neque lacus tincidunt sem, vitae egestas ex libero vel neque. Aliquam eget nibh non turpis mollis sagittis. Vivamus in ipsum non elit rhoncus commodo ut id ex. Sed ac urna ex. Aliquam sem lacus, luctus non hendrerit eget, posuere vel ante. Phasellus risus quam, consectetur sit amet sagittis vel, eleifend eget quam. Suspendisse dapibus, nulla eget bibendum lobortis, turpis sapien maximus libero, vel pretium metus nunc sed nisl. Fusce at turpis tortor. Ut rhoncus, est id viverra faucibus, orci lacus gravida tellus, id faucibus purus ipsum id enim. Vivamus at commodo quam, sit amet volutpat nisi."
+    },
+    {
+      "id": "d652c4b0-ab6b-490f-995c-9acf4e4eab48",
+      "name": "Inc'rock",
+      "date": "2024-05-18",
+      "location": "Incourt",
+      "description": "Proin eget metus suscipit, efficitur nisi ut, ultrices leo. Morbi tincidunt in magna vel accumsan. Vestibulum diam nunc, placerat eu maximus id, maximus a justo. Proin interdum, justo ac tincidunt venenatis, ante justo semper felis, sollicitudin tincidunt felis nibh sed arcu. Ut quis mi et augue mattis mattis ut sit amet mi. Aliquam erat volutpat. Vivamus justo mauris, egestas sit amet risus at, varius pellentesque massa. Nunc tempus convallis mollis. Nam egestas sit amet arcu nec cursus."
+    }
+  ],
+  "tickets": [
+    {
+      "id": "1",
+      "firstname": "Tom",
+      "lastname": "Colin",
+      "email": "tom@mail.com",
+      "phone": "0470499603",
+      "birthdate": "11-03-1999",
+      "gender": "Male",
+      "eventId": "06e3ecf2-b5ee-41e5-9a80-3205181ab6ba"
+    },
+    {
+      "id": "74b63f02-ee85-445e-8b30-6af64ba9a3bd",
+      "firstname": "Tom",
+      "lastname": "Colin",
+      "email": "tomcolin99@gmail.com",
+      "phone": "0470499603",
+      "gender": "male",
+      "event": "06e3ecf2-b5ee-41e5-9a80-3205181ab6ba"
+    }
+  ]
 }
