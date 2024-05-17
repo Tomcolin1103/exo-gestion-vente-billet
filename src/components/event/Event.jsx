@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { Link, Outlet } from "react-router-dom";
 import { deleteEvent } from "../../redux";
+import { AiOutlineDollar, AiOutlineDelete } from "react-icons/ai";
 
 export default function Event() {
 	const dispatch = useDispatch();
@@ -11,12 +12,12 @@ export default function Event() {
 			<div className="text-5xl pt-5">Events</div>
 			<div className="p-5 text-center">
 				<Link to={"/events/new"}>
-					<button className="rounded-md bg-cyan-600 p-1">
+					<button className="rounded-md bg-cyan-600 p-1 hover:animate-wiggle hover:animate-infinite">
 						Add new event +
 					</button>
 				</Link>
 			</div>
-			<ul className="text-center flex flex-col">
+			<ul className="text-center flex flex-col animate-fade-right ">
 				{events.map((event) => (
 					<li
 						key={event.id}
@@ -29,13 +30,13 @@ export default function Event() {
 							<button
 								onClick={() => dispatch(deleteEvent(event.id))}
 								style={{ padding: "5px", marginLeft: "20px" }}
-								className="bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded mr-5"
+								className="bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded mr-5 "
 							>
-								X
+								<AiOutlineDelete />
 							</button>
 							<Link to={`/events/book/${event.id}`}>
-								<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-									Book a ticket
+								<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded ">
+									Book a ticket <AiOutlineDollar />
 								</button>
 							</Link>
 						</span>

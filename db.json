@@ -13,21 +13,34 @@
       "date": "2024-05-18",
       "location": "Incourt",
       "description": "Proin eget metus suscipit, efficitur nisi ut, ultrices leo. Morbi tincidunt in magna vel accumsan. Vestibulum diam nunc, placerat eu maximus id, maximus a justo. Proin interdum, justo ac tincidunt venenatis, ante justo semper felis, sollicitudin tincidunt felis nibh sed arcu. Ut quis mi et augue mattis mattis ut sit amet mi. Aliquam erat volutpat. Vivamus justo mauris, egestas sit amet risus at, varius pellentesque massa. Nunc tempus convallis mollis. Nam egestas sit amet arcu nec cursus."
+    },
+    {
+      "id": "523daf13-81ab-4d17-a369-7b44419a7853",
+      "name": "Dour festival",
+      "date": "2024-07-17",
+      "location": "Dour",
+      "description": "routeChange"
+    },
+    {
+      "id": "4dc9a981-7511-4181-b8d8-a01a0f726634",
+      "name": "sdljfn",
+      "date": "213123-03-12",
+      "location": "lksdnflskn",
+      "description": "lsdjnflsdknf"
     }
   ],
   "tickets": [
     {
-      "id": "1",
+      "id": "eca6df5a-025b-495c-86f6-8f7ba02dd480",
       "firstname": "Tom",
       "lastname": "Colin",
-      "email": "tom@mail.com",
-      "phone": "0470499603",
-      "birthdate": "11-03-1999",
-      "gender": "Male",
-      "eventId": "06e3ecf2-b5ee-41e5-9a80-3205181ab6ba"
+      "email": "tomcolin99@gmail.com",
+      "phone": "+32470499603",
+      "gender": "male",
+      "event": "06e3ecf2-b5ee-41e5-9a80-3205181ab6ba"
     },
     {
-      "id": "74b63f02-ee85-445e-8b30-6af64ba9a3bd",
+      "id": "8a060f1e-9e7c-469b-a2b2-fca47a7793be",
       "firstname": "Tom",
       "lastname": "Colin",
       "email": "tomcolin99@gmail.com",
